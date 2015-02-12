@@ -45,7 +45,6 @@ angular.model('myApp', [])
 
 
 
-
 |     Task     	|          NODE API          	| Angular Service Function 	|
 |:------------:	|:--------------------------:	|:------------------------:	|
 |  single user 	|   GET /api/users/:user_id  	|          get(id)         	|
@@ -57,3 +56,12 @@ angular.model('myApp', [])
 - we will need to prefix the function name with the factory name
 - User.all()
 - User.get(id)
+
+
+
+## Angular Authentication
+
+3 main functions
+1. login, logout, get current user, check if logged in
+2. token auth functions (get token, save token)
+3. auth interceptor (attach token to requests, redirects if not logged in)
