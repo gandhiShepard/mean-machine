@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "jsonwebtoken": "~3.2.2",
-    "path": "~0.11.14"
+    "path": "~0.11.14",
+    "body-parser": "~1.9.3"
   }
 }
